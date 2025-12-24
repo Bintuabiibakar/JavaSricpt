@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function my() {
+            document.write("this a click event")
+        }
+        function test(){
+            document.write("this a fuction")
+        }
+        test()
+        function down(){
+            document.getElementById("myp").style.color="red";
+        }
+        function up(){
+            document.getElementById("myp").style.color="red";
+        
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="click me " onclick="my()"/>
+    <p id="myp" onmouseup="up()" onmousedown="down()">
+        change my color
+    </p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Demo</title>
+    <style>
+        div {
+            height: 50px;
+            width: 50px;
+            background: red;
+            border: 1px solid #f00;
+        }
+    </style>
+    <script>
+        function cm(){
+            alert("your rigth-clicked inside the div!")
+        }
+    </script>
+</head>
+<body>
+    <div oncontextmenu="cm()"
+    contextmenu="menu">
+</div>
+</body>
+</html>

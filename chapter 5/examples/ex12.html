@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script demo</title>
+    <script>
+        function paste(){
+            document.getElementById("demo").innerHTML="you pasted text!";
+        function copy(){
+            document.getElementById("demo").innerHTML="you copied text!"
+        }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" onpaste="paste()"value="try to paste something in here"size="40">
+    <input type="text" oncopy="copy()"value="try to copy this text">
+    <p id="demo"></p>
+</body>
+</html>

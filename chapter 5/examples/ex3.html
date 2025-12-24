@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Demot</title>
+    <script>
+        function down(){
+            document.getElementById("myp").style.color="red";
+        }
+        function up(){
+            document.getElementById("myp").style.color="green";
+        }
+        
+    </script>
+</head>
+<body>
+    <p id="myp" onmousedown="down()" onmouseup="up()">
+        Test
+    </p>
+</body>
+</html>
